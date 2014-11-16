@@ -1,0 +1,121 @@
+
+body{
+	position: absolute;
+	top: 75px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#header
+{
+	
+	border-radius: 5px;
+    position: fixed;
+	top: 5px;
+    z-index: 1;
+    height:40px;
+    width: 80%;
+    background-color: #142183;
+	
+}
+
+#apresentacao{
+	font-style: normal;
+	font-family: Tahoma;
+	font-size: 11pt;	
+}
+
+#nome {
+	position: absolute;
+    top: -13px;
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 3px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	border-style: none;
+	border-color: black;
+}
+
+#email{
+	position: relative;
+	top: -6px;
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	border-style: none;
+	border-color: black;
+}
+
+#telefone
+{
+    top: -6px;
+    float: left;
+    position: absolute;
+    left: 40%;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+	color: blue !important;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+}
+
+#foto {
+	float: right;
+	border-style: solid;
+	padding:5px 5px 0px 5px;
+}
+
+
+
+h1{
+	position: absolute;
+	left: 350px;
+	top: -55px;
+	font-family: Impact;
+}
+
+h3
+{
+    text-decoration: underline;
+	font-family: Palatino Linotype;
+	color: #142183;
+}
+
+li{
+	font-family: Lucida Sans Unicode;
+	color: black;
+	border-style: none;
+	margin-bottom: 15px;
+	
+}
+
+#map_canvas {
+    width: 300px;
+    height: 200px;
+    background-color: #CCC;
+	display:block;
+}
+
+
