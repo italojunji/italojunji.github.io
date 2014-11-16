@@ -1,7 +1,137 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="cv_css.css"/>
+		<title>Italo Junji Matsushita</title>
+		<meta charset="UTF-8"/>
+		<div id="header">
+			<p id="nome">Italo Junji Matsushita</p>
+			<a href="mailto:italo_junji@yahoo.com.br"><p id="email">italo_junji@yahoo.com.br</p></a>
+			<a href="tel:+553192936106"><p id="telefone">+55 31 9293-6106</p></a>
+		</div>
+		
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+				var mapCanvas = document.getElementById('map_canvas');
+				var mapOptions = {
+					center: new google.maps.LatLng(-19.9246363,-43.9380662),
+					zoom: 17,
+					mapTypeId: google.maps.MapTypeId.HYBRID
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions)
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(-19.9246363,-43.9380662),
+					title: "Meu endereço",
+					map: map
+				});
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+		
+		<div id="apresentacao">
+			<h1>
+				Italo Junji Matsushita
+			</h1>
+			<div id="foto">
+				
+				
+				<img src="3por4.jpg" width="140" height="140"/>
+			</div>
+			<p>
+				Brasileiro, solteiro, 23 anos <br>
+				Avenida Augusto de Lima 249/1202 Centro – Belo Horizonte – MG
+				<div id="map_canvas"></div>
+				E-mail: <a href="mailto:italo_junji@yahoo.com.br">italo_junji@yahoo.com.br</a> <br>
+				Telefone: <a href="tel:+553192936106">+55 31 9293-6106</a> <br>
+				RG: MG-15519858 CPF:11223063690	
+			</p>
+		</div>
+		<hr>
+		<h3>
+			FORMAÇÃO	
+		</h3>
+		<ul>
+			<li>
+				Ensino Fundamental Completo – <a target="_blank" href="http://www.cfo.g12.br">Colégio Frei Orlando</a>
+			</li>
+			<li>
+				Ensino Médio 1º e 2º ano – <a target="_blank" href="http://www.cicbh.com.br">Colégio Imaculada Conceição</a>
+			</li>
+			<li>
+				Ensino Médio 3º ano – <a target="_blank" href="http://www.soma.com.br">Colégio Soma</a>
+			</li>
+			<li>
+				Bacharelado em Engenharia de Controle e Automação – <a target="_blank" href="http://www.ufmg.br">Universidade Federal de Minas Gerais</a>. Formatura Dezembro/2013
+			</li>
+			
+		</ul>
+		<hr>
+		<h3>
+			EXPERIÊNCIA PROFISSIONAL	
+		</h3>
+		
+		<ul>
+			<li>
+				Dez 2009 - Fev 2011 – <a target="_blank" href="http://www.cpejr.com.br">CPEJr. - Consultoria e Projetos Elétricos Jr. (UFMG)</a> <br>
+				Cargos: Assessor Administrativo-Financeiro, Assessor Sênior.
+			</li>
+			<li>
+				Mai 2011 – Dez 2012 – <a target="_blank" href="http://www.coltec.ufmg.br">COLTEC – Colégio Técnico da UFMG</a><br>
+				Cargo: Monitor do curso técnico de Instrumentação Controle e Automação.
+			</li>
+			<li>
+				Mai 2012 – Dez 2013 – <a target="_blank" href="http://http://www.pronatec.coltec.ufmg.br/pronatec/">COLTEC – Colégio Técnico da UFMG</a><br>
+				Cargo: Professor do curso de eletricista instalador predial de baixa tensão do PRONATEC.
+			</li>
+			<li>
+				Out 2012 – Jan 2014 – <a target="_blank" href="http://www.chemtech.com.br">Chemtech – A Siemens Business</a><br>
+				Cargo: Estagiário na área Automação de Projetos
+			</li>
+			<li>
+				Mar 2014 – Hoje – <a target="_blank" href="http://www.chemtech.com.br">Chemtech – A Siemens Business</a><br>
+				Cargo: Trainee de Engenharia na área TI Industrial
+			</li>
+		</ul>
+		<hr>
+		<h3>
+			HABILIDADES EM SOFTWARES
+		</h3>
+		<ul>
+			<li>
+				Microsoft Visual Studio
+			</li>
+			<li>
+				Excel / Word (Macros / Addins)
+			</li>
+			<li>
+				VBA / C# / Java
+			</li>
+			<li>
+				Eclipse
+			</li>
+			<li>
+				Microsoft Sharepoint
+			</li>
+			<li>
+				API Autodesk (AutoCAD / Revit)
+			</li>
+		</ul>
+		<hr>
+		<h3>
+			LÍNGUAS ESTRANGEIRAS
+		</h3>
+		<ul>
+			<li>
+				Inglês avançado
+			</li>
+			<li>
+				Espanhol básico
+			</li>
+		</ul>
+		
+	</body>
+</html>	
